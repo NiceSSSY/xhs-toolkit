@@ -129,7 +129,8 @@ def main():
     print("2. 使用 pip（传统方式）")
     print("3. 自动选择")
     
-    choice = input("\n请选择 (1/2/3，默认3): ").strip() or "3"
+    #choice = input("\n请选择 (1/2/3，默认3): ").strip() or "3"
+    choice = "1"
     
     if choice == "1":
         success = install_with_uv()
